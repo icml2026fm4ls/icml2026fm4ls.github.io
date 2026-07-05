@@ -18,6 +18,13 @@
     <link rel="stylesheet" href="../theme/css/custom.css">
   
     <style>
+        .row.display-flex {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .row.display-flex > [class*='col-'] {
+            float: none;
+        }
         body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       line-height: 1.5;
